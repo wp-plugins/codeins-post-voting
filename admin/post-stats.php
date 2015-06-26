@@ -30,7 +30,7 @@
 		}
 		
 		
-		if(isset($_POST[deletesel]) && intval($_POST[deletesel]) == 1)
+		if(isset($_POST['deletesel']) && intval($_POST['deletesel']) == 1)
 		{
 			$retingids = $_POST['retingids'];
 			if(is_array($retingids))

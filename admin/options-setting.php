@@ -1,4 +1,4 @@
-    <div class="wrap">
+﻿    <div class="wrap">
     	
     	<div class="cm_title" ><h2>Codeins Post Voting : Options settings</h2> </div>
         <?php 
@@ -150,7 +150,7 @@
 										{ $check =(in_array($category->cat_ID , $selected_cat_ids))?'checked="checked"':'';}
 										$output .= '<div style="float:left; height:20px; border:1px solid #000; margin-bottom:10px; border-radius:10px; background-color:#FFF; padding: 3px 10px;margin-right: 10px;"><label><input type="checkbox" '.$check.' name="comd_insert_post_id" class="categories_check" id="'.$category->cat_ID.'" > '. $category->cat_name.' </label></div>';
 									}
-								echo trim($output, $separator);
+								echo trim($output);
 								}
 								else{echo 'No categories';}
 								
@@ -221,7 +221,7 @@
 										{ $check =(in_array($apage->ID , $selected_cat_ids))?'checked="checked"':'';}
 										$output .= '<div style="float:left; height:20px; border:1px solid #000; margin-bottom:10px; border-radius:10px; background-color:#FFF; padding: 3px 10px;margin-right: 10px;"><label><input type="checkbox" '.$check.'  class="pagess_check" id="'.$apage->ID.'" value="'.$apage->ID.'" > '. $apage->post_title.' </label></div>';
 									}
-								echo trim($output, $separator);
+								echo trim($output);
 								}
 								else{echo 'No categories';}
 								
