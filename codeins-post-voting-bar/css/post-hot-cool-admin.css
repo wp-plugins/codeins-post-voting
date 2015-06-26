@@ -1,0 +1,145 @@
+.filterbar {
+background-color:#FFF;
+border:1px solid #C5C5C5;
+border-radius:5px;
+height:30px;
+margin:20px 0 0 10px;
+padding:15px 20px;
+width:95%;
+float:left
+}
+
+.datacon_area {
+background-color:#FFF;
+border:1px solid #C5C5C5;
+border-radius:5px;
+height:auto;
+min-height:30px;
+margin:20px 0 0 10px;
+padding:15px 20px;
+width:95%;
+float:left
+}
+
+.auserdata_con {
+background-color:#FFF;
+border:1px solid #C5C5C5;
+border-radius:5px;
+float:left;
+height:auto;
+margin-right:15px;
+min-height:30px;
+padding:10px;
+width:295px
+}
+
+.apostdata_con {
+background-color:#FFF;
+border:1px solid #C5C5C5;
+border-radius:5px;
+float:left;
+height:auto;
+min-height:30px;
+padding:10px;
+width:735px
+}
+
+.com_table,.com_post_table,.com_post_table1 {
+width:100%;
+border:1px solid #C5C5C5;
+border-radius:5px;
+float:left;
+max-height:400px;
+overflow-y:auto
+}
+
+.single_tbabl_contnt {
+height:450px;
+overflow-y:auto;
+display:none
+}
+
+.user_table_cc {
+height:450px;
+overflow-y:auto
+}
+
+user_table_cc1 {
+height:200px;
+overflow-y:auto
+}
+
+.com_table th,.com_post_table th {
+padding:10px 0;
+font:bold 15px Arial,Helvetica,sans-serif;
+cursor:pointer
+}
+
+.com_table th,.com_table td,.com_post_table th,.com_post_table td,.com_post_table1 td {
+text-align:center
+}
+
+.com_table tr {
+cursor:pointer
+}
+
+.com_table tr:hover {
+background-color:#4BD479!important
+}
+
+.com_table tr:nth-child(even),.com_post_table tr:nth-child(even) {
+background:#efefef
+}
+
+.com_table tr:nth-child(odd),.com_post_table tr:nth-child(odd) {
+background:#FFF
+}
+
+.com_table th,.com_post_table th {
+background-color:#0084c1;
+color:#FFF
+}
+
+.com_table .selected {
+background-color:#093!important
+}
+
+.com_table .selected:hover {
+background-color:#093!important
+}
+
+.boldline {
+border:1px double #C5C5C5;
+margin:26px auto;
+width:600px
+}
+
+.thesingelform {
+display:none
+}
+
+.txtarecontnr {
+width:450px;
+margin:0 auto
+}
+
+.txtarecontnr span {
+font-weight:700;
+width:100%;
+text-align:center
+}
+
+.txtarecontnr textarea {
+margin-top:10px;
+height:250px;
+width:450px
+}
+
+.dataTables_length {
+background:none repeat scroll 0 0 #987;
+float:left
+}
+
+dataTables_filter {
+float:right
+}
