@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Plugin Name: Codeins Post Voting
  * Plugin URI: http://www.codeins.org/
@@ -222,7 +222,7 @@ function codeins_urser_post_stats()
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.','codeins-post-voting' ) );
 	}
-	require_once( WP_PLUGIN_DIR . '/codeins-post-voting-bar/admin/post-stats.php' );
+	require_once( WP_PLUGIN_DIR . '/codeins-post-voting/admin/post-stats.php' );
 	
 }
 
@@ -231,21 +231,21 @@ function codeins_urser_management(){
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.','codeins-post-voting' ) );
 	}
-	require_once( WP_PLUGIN_DIR . '/codeins-post-voting-bar/admin/user-manage.php' );}
+	require_once( WP_PLUGIN_DIR . '/codeins-post-voting/admin/user-manage.php' );}
 
 function codeins_voting_manage_option(){
     
 	if ( !current_user_can( 'manage_options' ) )  {
 		wp_die( __( 'You do not have sufficient permissions to access this page.' , 'codeins-post-voting') );
 	}
-	require_once( WP_PLUGIN_DIR . '/codeins-post-voting-bar/admin/options-setting.php' );
+	require_once( WP_PLUGIN_DIR . '/codeins-post-voting/admin/options-setting.php' );
 	
 }
 
 
 function codeins_init()
 {
-	require_once( WP_PLUGIN_DIR . '/codeins-post-voting-bar/include/hot-cold-widget.php' );
+	require_once( WP_PLUGIN_DIR . '/codeins-post-voting/include/hot-cold-widget.php' );
 
 	$name = dirname(plugin_basename(__FILE__));
 		//Language Setup
