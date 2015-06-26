@@ -15,13 +15,13 @@ Codeins Post Voting bar can be used to show how hot or cool your post is. Every 
 
 == Installation ==
 1. Upload the Codeins Post Voting plugin  to the `/wp-content/plugins/` directory
-2. Activate the plugin through the \'Plugins\' menu in WordPress
+2. Activate the plugin through the `\'Plugins\'` menu in WordPress
 3. If bar not display in your site after activation plugin. you can add support in theme by adding code
-<?php
+`<?php
 	if(function_exists('codeins_add_vote_content'))
 			echo codeins_add_vote_content();
-?>
-into index.php of you theme at appropriate location. 
+?>`
+into `index.php` of you theme at appropriate location. 
 
 
 == Screenshots ==
